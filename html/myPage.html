@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="/css/myPage.css">
+</head>
+<body>
+    <div id="header">
+        <a href="/home"><img src="/image/logo.png" alt="Logo" id="logo"></a>
+    </div>
+    <div id="profile-container">
+        <div id="profile-info">
+            <img src="/image/profile.jpg" alt="Profile Picture" id="profile-pic">
+            <div id="user-info">
+                <label for="user-id">아이디</label>
+                <div id="user-id">Loading...</div>
+                <button id="change-password-btn">비밀번호 변경</button>
+            </div>
+        </div>
+        <a href="/simulator/records" id="view-records-link"><button id="view-records">나의 시뮬레이터 기록 확인</button></a>
+    </div>
+    <div id="password-change-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p>비밀번호 변경</p>
+            <form action="" method="post">
+                <input type="password" placeholder="새로운 비밀번호">
+                <button type="submit">비밀번호 변경</button>
+            </form>
+        </div>
+    </div>
+    <script src="/js/myPage.js"></script>
+</body>
+</html>

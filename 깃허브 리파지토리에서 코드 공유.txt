@@ -1,0 +1,24 @@
+<깃허브 리파지토리에서 코드 공유>
+git init
+git remote add origin https://github.com/username/repository.git (origin옆의 url은 바꿔줘야)
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+
+<깃허브 branch 추가>
+git checkout -b develop
+git push --set-upstream origin develop(이건 위 명령어 입력하면 나오는 명령어 복 붙한 거)
+
+<깃허브 follow>
+https://docs.github.com/ko/get-started/exploring-projects-on-github/following-people
+
+
+<마스터 블록하기>
+Branch의 Require a pull request before merging, lock branch설정
+
+<브랜치 이동>
+git checkout master
+
+<깃 복사>
+git clone https://github.com/Keykick999/Simulator.git newOne

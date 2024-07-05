@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6db9ef, #7ce08a);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container {
+    width: 80%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #28527a;
+    text-decoration: none; /* 로고에 밑줄 제거 */
+}
+
+.header p {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #28527a;
+    border-bottom: 1px solid #ccc; /* 섹션 구분을 위한 하단 경계선 */
+    padding-bottom: 1rem;
+}
+
+.form select, .form button {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 1rem;
+    border: 2px solid #28527a;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 0.95rem;
+    color: #28527a;
+    outline: none;
+}
+
+.form button {
+    background-color: #4dabf7;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form button:hover {
+    background-color: #3a8fd6;
+}
+
+.output {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.output p {
+    color: #28527a;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.output ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.output li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+.output button {
+    margin-top: 1rem;
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    font-weight: 600;
+}
+
+.output button:hover {
+    background-color: #388e3c;
+}
